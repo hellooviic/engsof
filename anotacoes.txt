@@ -1,0 +1,12 @@
+CLI
+
+git hub action
+
+code . | abir vs code
+git clone url | clonar repositorio
+git mv nome.arquivo nome.novo | renomear arquivo
+git status | ver alteracoes
+git commit -m "escrever atualizacoes"| documentar
+git push | enviar alteracoes
+git add .\nome.arquivo | prepara um arquivo
+git add . | prepara todos os arquivos
