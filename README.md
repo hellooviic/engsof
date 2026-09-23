@@ -79,6 +79,17 @@ Por isso, a credencial deve ser considerada comprometida e deve ser revogada ou 
 ### Questão 7
 Explique por que gestão de configuração é pré-requisito para testes automatizados e para qualquer forma de auditoria.
 
+
+**Resposta:**
+
+A gestão de configuração permite saber exatamente qual versão do código, dos dados, das dependências e das configurações foi utilizada em determinado momento.
+
+Isso é necessário para que um teste automatizado possa ser reproduzido nas mesmas condições e produza resultados confiáveis.
+
+Também é essencial para auditorias, pois permite identificar o que foi alterado, quando a alteração aconteceu e qual versão foi utilizada.
+
+Sem um histórico íntegro e reproduzível, não é possível testar, investigar ou justificar uma decisão técnica com segurança.
+
 ---
 
 ## Aula 05 - GitHub: colaboração e revisão de código
