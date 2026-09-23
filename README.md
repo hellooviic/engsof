@@ -5,6 +5,17 @@
 ### Questão 1
 Explique as três áreas do Git e diga qual comando move um arquivo entre cada par delas.
 
+Resposta:
+As três áreas do Git são:
+
+- Diretório de trabalho: onde os arquivos estão sendo editados.
+- Área de preparo (staging): contém as alterações selecionadas para o próximo commit.
+- Repositório (.git): guarda permanentemente o histórico dos commits.
+
+O comando `git add arquivo` leva uma alteração do diretório de trabalho para a área de preparo.  
+O comando `git commit` registra o conteúdo preparado no repositório.  
+Para retirar um arquivo da área de preparo, pode-se usar `git restore --staged arquivo`, e `git restore arquivo` desfaz alterações feitas no diretório de trabalho.
+
 ### Questão 2
 Reescreva as mensagens de commit a seguir de modo que sirvam a quem lê o histórico: "ajustes", "agora foi", "correções diversas".
 
