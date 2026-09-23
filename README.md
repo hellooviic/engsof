@@ -70,6 +70,12 @@ Esses arquivos devem ser excluídos do versionamento através do `.gitignore`, q
 ### Questão 6
 Uma credencial foi commitada por engano e removida no commit seguinte. Explique por que isso não é suficiente e o que deve ser feito.
 
+**Resposta:**
+
+Remover a credencial no commit seguinte não é suficiente porque ela continua registrada nos commits anteriores do histórico do Git. Qualquer pessoa que tenha acesso ao histórico pode recuperar esse valor.
+
+Por isso, a credencial deve ser considerada comprometida e deve ser revogada ou substituída imediatamente. Também é necessário impedir que o arquivo com a credencial volte a ser versionado, por exemplo utilizando o `.gitignore`.
+
 ### Questão 7
 Explique por que gestão de configuração é pré-requisito para testes automatizados e para qualquer forma de auditoria.
 
