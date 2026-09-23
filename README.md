@@ -159,5 +159,13 @@ Aprovar a revisão:
 ### Questão 6
 Compare GitHub Flow, Git Flow e trunk-based indicando em que contexto cada um é adequado.
 
+**Resposta:**
+
+O GitHub Flow utiliza a main sempre em condições de entrega e branches curtas para cada tarefa. É adequado para equipes que trabalham com entregas frequentes e desejam um fluxo simples.
+
+O Git Flow possui branches adicionais para desenvolvimento, releases e correções. É adequado para projetos que precisam manter versões diferentes em paralelo e possuem um processo de lançamento mais estruturado.
+
+O trunk-based trabalha com integrações muito frequentes diretamente na linha principal ou com branches extremamente curtas. É mais adequado quando a equipe possui forte automação de testes e integração contínua.
+
 ### Questão 7
 Explique por que revisão por pares é considerada uma prática de qualidade e não um mecanismo de controle sobre as pessoas.
