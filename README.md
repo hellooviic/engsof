@@ -121,6 +121,10 @@ Aprovar um PR assim dificulta uma revisão cuidadosa e pode fazer com que erros 
 ### Questão 3
 Escreva um comentário de revisão adequado para um trecho que ignora o caso de lista vazia, indicando se é bloqueante ou sugestão.
 
+**Resposta:**
+
+**Bloqueante:** O que acontece se a lista estiver vazia? Nesse caso, o código pode tentar acessar um elemento que não existe e gerar um erro. Seria necessário tratar esse cenário e adicionar um teste para uma lista vazia antes da integração.
+
 ### Questão 4
 Justifique cada uma das quatro regras de proteção da branch principal em termos do problema que ela evita.
 
