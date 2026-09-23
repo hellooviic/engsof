@@ -97,6 +97,16 @@ Sem um histórico íntegro e reproduzível, não é possível testar, investigar
 ### Questão 1
 Descreva os cinco passos do fluxo de contribuição, do clone ao merge, indicando o artefato produzido em cada um.
 
+**Resposta:**
+
+Partindo de um clone local do repositório, o fluxo possui cinco etapas:
+
+1. Escolher uma issue e criar um ramo para o trabalho. O artefato produzido é uma nova branch associada à tarefa.
+2. Realizar o trabalho e criar commits pequenos e descritivos. Os artefatos produzidos são os commits.
+3. Enviar o ramo ao GitHub e abrir um pull request. Os artefatos são a branch remota e o PR.
+4. Receber a revisão, realizar os ajustes necessários e integrar a alteração. São produzidos comentários de revisão, aprovações e a integração na main.
+5. Apagar o ramo após a integração e fechar a issue. O resultado final é a main atualizada, a branch de trabalho removida e a issue concluída.
+
 ### Questão 2
 Um pull request tem título "alterações", nenhuma descrição e 38 arquivos alterados. Liste o que falta para torná-lo revisável e explique o risco de aprová-lo assim.
 
