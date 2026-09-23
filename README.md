@@ -138,6 +138,24 @@ Justifique cada uma das quatro regras de proteção da branch principal em termo
 ### Questão 5
 Traduza para comandos gh as seguintes ações: criar issue, abrir PR, trazer PR do colega para a máquina e aprovar a revisão.
 
+**Resposta:**
+
+Criar uma issue:
+
+`gh issue create`
+
+Abrir um pull request:
+
+`gh pr create --fill`
+
+Trazer o PR de um colega para a máquina:
+
+`gh pr checkout <numero-do-pr>`
+
+Aprovar a revisão:
+
+`gh pr review <numero-do-pr> --approve`
+
 ### Questão 6
 Compare GitHub Flow, Git Flow e trunk-based indicando em que contexto cada um é adequado.
 
