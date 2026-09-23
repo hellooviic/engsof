@@ -57,6 +57,16 @@ Para resolver, deve-se analisar as duas versões, escolher ou combinar o conteú
 ### Questão 5
 Liste cinco tipos de arquivo que não devem ser versionados e explique o risco específico de cada um.
 
+**Resposta:**
+
+1. Arquivos com senhas, tokens ou chaves de API: podem permitir acesso não autorizado a sistemas e serviços.
+2. Arquivos de ambiente, como `.env`: podem conter credenciais e configurações privadas.
+3. Ambientes virtuais, como `.venv`: ocupam espaço e podem ser recriados a partir das dependências do projeto.
+4. Arquivos de cache, como `__pycache__`: são gerados automaticamente e não representam código-fonte.
+5. Arquivos com dados pessoais ou grandes conjuntos de dados: podem causar problemas de privacidade, segurança e tamanho excessivo do repositório.
+
+Esses arquivos devem ser excluídos do versionamento através do `.gitignore`, quando aplicável.
+
 ### Questão 6
 Uma credencial foi commitada por engano e removida no commit seguinte. Explique por que isso não é suficiente e o que deve ser feito.
 
