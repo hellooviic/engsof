@@ -41,6 +41,19 @@ Commits pequenos e bem definidos tornam o histórico mais claro, rastreável e s
 ### Questão 4
 Explique por que ocorre um conflito, o que significa cada um dos três delimitadores inseridos pelo Git e quais passos resolvem a situação.
 
+Resposta:
+Um conflito acontece quando dois ramos alteram a mesma parte de um mesmo arquivo e o Git não consegue decidir automaticamente qual versão deve permanecer.
+
+Os delimitadores são:
+
+`<<<<<<< HEAD` indica o conteúdo do ramo atual.
+
+`=======` separa as duas versões em conflito.
+
+`>>>>>>> nome-do-ramo` indica o conteúdo do outro ramo que está sendo integrado.
+
+Para resolver, deve-se analisar as duas versões, escolher ou combinar o conteúdo correto, apagar os delimitadores, salvar o arquivo, executar os testes, adicionar o arquivo novamente com `git add` e concluir o commit.
+
 ### Questão 5
 Liste cinco tipos de arquivo que não devem ser versionados e explique o risco específico de cada um.
 
