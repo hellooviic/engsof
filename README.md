@@ -110,6 +110,14 @@ Partindo de um clone local do repositório, o fluxo possui cinco etapas:
 ### Questão 2
 Um pull request tem título "alterações", nenhuma descrição e 38 arquivos alterados. Liste o que falta para torná-lo revisável e explique o risco de aprová-lo assim.
 
+**Resposta:**
+
+Esse pull request precisa de um título que explique claramente a alteração, uma descrição informando por que ela foi feita e quais decisões foram tomadas, vínculo com a issue correspondente, uma seção explicando como testar e um tamanho menor.
+
+Os 38 arquivos alterados indicam que o PR provavelmente deveria ser dividido em contribuições menores.
+
+Aprovar um PR assim dificulta uma revisão cuidadosa e pode fazer com que erros sejam integrados à branch principal. Além disso, uma aprovação sem revisão adequada cria uma falsa sensação de segurança.
+
 ### Questão 3
 Escreva um comentário de revisão adequado para um trecho que ignora o caso de lista vazia, indicando se é bloqueante ou sugestão.
 
