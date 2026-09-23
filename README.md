@@ -31,6 +31,13 @@ O importante é que a mensagem permita entender a alteração sem precisar abrir
 ### Questão 3
 Um colega pergunta por que não pode simplesmente fazer um commit por dia com tudo o que mexeu. Responda em cinco linhas.
 
+Resposta:
+Um commit deve representar uma alteração com um único objetivo.  
+Juntar tudo que foi feito durante o dia mistura mudanças que podem não ter relação entre si.  
+Isso dificulta entender posteriormente o histórico do projeto.  
+Também dificulta desfazer apenas uma alteração que apresentou problema.  
+Commits pequenos e bem definidos tornam o histórico mais claro, rastreável e seguro.
+
 ### Questão 4
 Explique por que ocorre um conflito, o que significa cada um dos três delimitadores inseridos pelo Git e quais passos resolvem a situação.
 
