@@ -128,6 +128,13 @@ Escreva um comentário de revisão adequado para um trecho que ignora o caso de 
 ### Questão 4
 Justifique cada uma das quatro regras de proteção da branch principal em termos do problema que ela evita.
 
+**Resposta:**
+
+1. Proibir push direto na main: evita que uma alteração entre na branch principal sem passar por revisão.
+2. Exigir pelo menos uma aprovação: garante que outra pessoa tenha analisado a alteração antes da integração.
+3. Exigir que as verificações automáticas passem: evita integrar código que falha nos testes ou verificações configuradas.
+4. Exigir que todas as conversas sejam resolvidas: impede que dúvidas ou problemas apontados durante a revisão sejam ignorados antes do merge.
+
 ### Questão 5
 Traduza para comandos gh as seguintes ações: criar issue, abrir PR, trazer PR do colega para a máquina e aprovar a revisão.
 
