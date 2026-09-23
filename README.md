@@ -19,6 +19,15 @@ Para retirar um arquivo da área de preparo, pode-se usar `git restore --staged 
 ### Questão 2
 Reescreva as mensagens de commit a seguir de modo que sirvam a quem lê o histórico: "ajustes", "agora foi", "correções diversas".
 
+Resposta:
+As mensagens precisam explicar claramente o que foi alterado. Por exemplo:
+
+- `ajustes` → `docs: ajusta descrição dos comandos Git no README`
+- `agora foi` → `fix: corrige validação de entrada de dados`
+- `correções diversas` → `fix: corrige tratamento de erros na leitura do arquivo`
+
+O importante é que a mensagem permita entender a alteração sem precisar abrir o código.
+
 ### Questão 3
 Um colega pergunta por que não pode simplesmente fazer um commit por dia com tudo o que mexeu. Responda em cinco linhas.
 
