@@ -1,78 +1,49 @@
-Jogo de Adivinhação
+# Exercícios de Git e GitHub
 
-Um jogo simples de adivinhação desenvolvido em Python, onde o jogador precisa descobrir um número secreto entre 1 e 100.
+## Aula 04 - Gestão de configuração: Git
 
-O jogador possui 7 tentativas para acertar o número escolhido aleatoriamente pelo computador.
+### Questão 1
+Explique as três áreas do Git e diga qual comando move um arquivo entre cada par delas.
 
-Como funciona
-O computador escolhe aleatoriamente um número entre 1 e 100.
-O jogador recebe 7 tentativas para descobrir o número.
-A cada tentativa, o programa informa se o palpite é maior ou menor que o número secreto.
-Se o jogador acertar, o programa informa em qual tentativa conseguiu.
-Caso as 7 tentativas acabem, o número secreto é revelado.
-Tecnologias utilizadas
-Python 3
-Biblioteca random
-Como executar
-1. Clone o repositório
-git clone URL_DO_SEU_REPOSITORIO
+### Questão 2
+Reescreva as mensagens de commit a seguir de modo que sirvam a quem lê o histórico: "ajustes", "agora foi", "correções diversas".
 
-2. Entre na pasta do projeto
-cd nome-do-projeto
+### Questão 3
+Um colega pergunta por que não pode simplesmente fazer um commit por dia com tudo o que mexeu. Responda em cinco linhas.
 
-3. Execute o programa
-python jogo.py
+### Questão 4
+Explique por que ocorre um conflito, o que significa cada um dos três delimitadores inseridos pelo Git e quais passos resolvem a situação.
 
+### Questão 5
+Liste cinco tipos de arquivo que não devem ser versionados e explique o risco específico de cada um.
 
-Caso seja necessário utilizar o Python 3 diretamente:
+### Questão 6
+Uma credencial foi commitada por engano e removida no commit seguinte. Explique por que isso não é suficiente e o que deve ser feito.
 
-python3 jogo.py
+### Questão 7
+Explique por que gestão de configuração é pré-requisito para testes automatizados e para qualquer forma de auditoria.
 
-Estrutura do projeto
-jogo-adivinhacao/
-│
-├── jogo.py
-└── README.md
+---
 
-Conceitos praticados
+## Aula 05 - GitHub: colaboração e revisão de código
 
-Este projeto foi desenvolvido para praticar conceitos básicos de programação em Python, como:
+### Questão 1
+Descreva os cinco passos do fluxo de contribuição, do clone ao merge, indicando o artefato produzido em cada um.
 
-Variáveis
-Estruturas condicionais (if, elif, else)
-Estrutura de repetição (while)
-Entrada de dados com input()
-Conversão de tipos com int()
-Uso da biblioteca random
-Geração de números aleatórios com random.randint()
-Operadores de comparação
-Controle de tentativas
-Exemplo de execução
-Jogo de adivinhação - Você tem 7 tentativas
-Tente adivinhar o número que estou pensando entre 1 e 100
+### Questão 2
+Um pull request tem título "alterações", nenhuma descrição e 38 arquivos alterados. Liste o que falta para torná-lo revisável e explique o risco de aprová-lo assim.
 
-Você tem 7 tentativas restantes
-Digite o seu palpite: 50
-Seu número é menor que o número secreto
+### Questão 3
+Escreva um comentário de revisão adequado para um trecho que ignora o caso de lista vazia, indicando se é bloqueante ou sugestão.
 
-Você tem 6 tentativas restantes
-Digite o seu palpite: 25
-Seu número é maior que o número secreto
+### Questão 4
+Justifique cada uma das quatro regras de proteção da branch principal em termos do problema que ela evita.
 
-Você tem 5 tentativas restantes
-Digite o seu palpite: 37
-Número correto! 37
+### Questão 5
+Traduza para comandos gh as seguintes ações: criar issue, abrir PR, trazer PR do colega para a máquina e aprovar a revisão.
 
-Você acertou. Na tentativa: 3
+### Questão 6
+Compare GitHub Flow, Git Flow e trunk-based indicando em que contexto cada um é adequado.
 
-Possíveis melhorias
- Impedir que o usuário digite números fora do intervalo de 1 a 100
- Tratar entradas que não sejam números
- Permitir que o jogador escolha a dificuldade
- Criar diferentes quantidades de tentativas
- Adicionar um sistema de pontuação
- Permitir jogar novamente sem reiniciar o programa
- Criar uma interface gráfica
-Objetivo
-
-Este projeto tem como objetivo servir como um exercício de aprendizado em Python, especialmente para quem está começando a estudar lógica de programação.
+### Questão 7
+Explique por que revisão por pares é considerada uma prática de qualidade e não um mecanismo de controle sobre as pessoas.
