@@ -169,3 +169,15 @@ O trunk-based trabalha com integrações muito frequentes diretamente na linha p
 
 ### Questão 7
 Explique por que revisão por pares é considerada uma prática de qualidade e não um mecanismo de controle sobre as pessoas.
+
+**Resposta:**
+
+A revisão por pares é uma prática de qualidade porque permite que outra pessoa analise o código antes de ele entrar na branch principal.
+
+O objetivo é identificar erros, verificar se a alteração atende ao que foi proposto, conferir testes, nomes, tratamento de erros e documentação.
+
+A análise deve ser direcionada ao código, e não à pessoa que o escreveu.
+
+Além de prevenir problemas, a revisão permite compartilhar conhecimento entre os integrantes da equipe.
+
+Por isso, ela funciona como garantia de qualidade e colaboração, e não como fiscalização pessoal.
